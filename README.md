@@ -1,3 +1,6 @@
+> [!NOTE]
+> This is a fork that solves a specific set of issues that I encountered while using `use-sound` with vite and modules. You should probably use [the original](https://github.com/joshwcomeau/use-sound)
+
 # useSound
 
 ### A React Hook for Sound Effects

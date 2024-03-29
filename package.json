@@ -1,14 +1,11 @@
 {
-  "name": "use-sound",
+  "name": "@kovaradam/use-sound",
+  "description": "Fork of Josh Comeau's use-sound package that only exports esm build",
   "author": "Josh Comeau",
   "version": "4.0.1",
   "module": "dist/use-sound.esm.js",
   "type": "module",
-  "exports": {
-    "import": "./dist/use-sound.esm.js",
-    "require": "./dist/index.js"
-  },
-  "repository": "github:joshwcomeau/use-sound",
+  "repository": "github:kovaradam/use-sound",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -16,7 +13,7 @@
     "start": "tsdx watch",
     "build": "tsdx build",
     "test": "tsdx test --passWithNoTests",
-    "lint": "tsdx lint",
+    "lint": "tsdx lint src",
     "prepare": "tsdx build",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
@@ -65,7 +62,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "tsdx lint"
+      "pre-commit": "yarn lint"
     }
   },
   "prettier": {
