@@ -1,9 +1,9 @@
 {
-  "name": "@kovaradam/use-sound",
+  "name": "use-sound-esm",
   "description": "Fork of Josh Comeau's use-sound package that only exports esm build",
   "author": "Josh Comeau",
-  "version": "4.0.1",
-  "module": "dist/use-sound.esm.js",
+  "version": "4.0.2",
+  "module": "dist/use-sound-esm.esm.js",
   "type": "module",
   "repository": "github:kovaradam/use-sound",
   "license": "MIT",
